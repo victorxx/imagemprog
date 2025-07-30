@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <style>
+      body {
+        height: 100vh;
+        margin: 0;
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #prog_img {
+        border-radius: 10px;
+        text-align: center;
+        background-color: black;
+        padding: 20px;
+      }
+
+      .container-imagem {
+        position: relative;
+        display: inline-block;
+      }
+
+      .botao-texto {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #ffcc00;
+        color: #000;
+        padding: 10px 16px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        text-transform: uppercase;
+        z-index: 2;
+        white-space: nowrap;
+      }
+
+      .container-imagem img {
+        height: 300px;
+        width: 250px;
+        object-fit: contain;
+        border-radius: 5px;
+        display: block;
+      }
+
+      #prog_img a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="prog_img"></div>
+
+    <script>
+      let prog = [
+        {
+          url_imagem: "https://upload.wikimedia.org/wikipedia/commons/8/82/Hostinger_logo.png",
+          url: "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
+          texto: "VOCÊ PRECISA AUMENTAR SUA PRESENÇA ONLINE?"
+        },
+      ];
+
+      let indice = Math.floor(Math.random() * prog.length);
+      let resolucao = prog[indice];
+
+      document.getElementById('prog_img').innerHTML = `
+        <div class="container-imagem">
+          <div class="botao-texto">${resolucao.texto}</div>
+          <a href="${resolucao.url}" target="_blank">
+            <img src="${resolucao.url_imagem}" />
+          </a>
+        </div>
+      `;
+    </script>
+  </body>
+</html>
