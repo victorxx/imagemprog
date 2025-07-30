@@ -58,11 +58,66 @@
 
     <script>
       let prog = [
-        {
-          url_imagem: "https://upload.wikimedia.org/wikipedia/commons/8/82/Hostinger_logo.png",
-          url: "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
-          texto: "VOCÊ PRECISA AUMENTAR SUA PRESENÇA ONLINE?"
-        },
+                     {
+                      url_imagem: "https://upload.wikimedia.org/wikipedia/commons/8/82/Hostinger_logo.png",
+                      url: "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
+                      texto: "VOCÊ PRECISA AUMENTAR SUA PRESENÇA ONLINE?"
+                    },
+                    {
+                      url_imagem: "https://upload.wikimedia.org/wikipedia/commons/8/82/Hostinger_logo.png",
+                      url: "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
+                      texto: "COLOQUE SEU NEGÓCIO NA INTERNET COM A HOSTINGER!"
+                    },
+                    {
+                      url_imagem: "https://upload.wikimedia.org/wikipedia/commons/8/82/Hostinger_logo.png",
+                      url: "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
+                      texto: "CRIE SEU SITE HOJE MESMO COM DESCONTO EXCLUSIVO!"
+                    },
+                    {
+                      url_imagem: "https://upload.wikimedia.org/wikipedia/commons/8/82/Hostinger_logo.png",
+                      url: "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
+                      texto: "SITE RÁPIDO, SEGURO E PROFISSIONAL? SÓ COM A HOSTINGER!"
+                    },
+                    {
+                      url_imagem: "https://upload.wikimedia.org/wikipedia/commons/8/82/Hostinger_logo.png",
+                      url: "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
+                      texto: "VOCÊ ONLINE EM POUCOS CLIQUES. CONFIRA A HOSTINGER!"
+                    },
+                {
+                  url_imagem: "https://upload.wikimedia.org/wikipedia/commons/8/82/Hostinger_logo.png",
+                  url: "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
+                  texto: "VOCÊ PRECISA AUMENTAR SUA PRESENÇA ONLINE?"
+                },
+                {
+                  url_imagem: "https://www.cache2net4.com//Repositorio/13489/Slides/slide%20(2).webp?=2011751-1",
+                  url: "https://uteis01.pages.dev/servicobancario",
+                  texto: "PRECISA DE UM SEGURO AUTO OU UM CONSÓRCIO FALE CONOSCO AGORA MESMO "
+                },
+               {
+                  url_imagem: "https://www.cache2net4.com//Repositorio/13489/Slides/slide%20(2).webp?=2011751-1",
+                  url: "https://uteis01.pages.dev/servicobancario",
+                  texto: "GARANTA JÁ SEU SEGURO AUTO OU CONSÓRCIO COM CONDIÇÕES IMPERDÍVEIS!"
+                },
+                {
+                  url_imagem: "https://www.cache2net4.com//Repositorio/13489/Slides/slide%20(2).webp?=2011751-1",
+                  url: "https://uteis01.pages.dev/servicobancario",
+                  texto: "SEGURO AUTO OU CONSÓRCIO? FALE COM A GENTE AGORA MESMO!"
+                },
+                {
+                  url_imagem: "https://www.cache2net4.com//Repositorio/13489/Slides/slide%20(2).webp?=2011751-1",
+                  url: "https://uteis01.pages.dev/servicobancario",
+                  texto: "REALIZE SEUS PLANOS COM UM CONSÓRCIO OU PROTEJA SEU VEÍCULO HOJE!"
+                },
+                {
+                  url_imagem: "https://www.cache2net4.com//Repositorio/13489/Slides/slide%20(2).webp?=2011751-1",
+                  url: "https://uteis01.pages.dev/servicobancario",
+                  texto: "OFERTAS ESPECIAIS EM SEGURO AUTO E CONSÓRCIO — FALE CONOSCO!"
+                },
+                {
+                  url_imagem: "https://www.cache2net4.com//Repositorio/13489/Slides/slide%20(2).webp?=2011751-1",
+                  url: "https://uteis01.pages.dev/servicobancario",
+                  texto: "PROTEÇÃO E PLANEJAMENTO PARA VOCÊ — CONSÓRCIO OU SEGURO AUTO, É SÓ CHAMAR!"
+                }
       ];
 
       let indice = Math.floor(Math.random() * prog.length);
